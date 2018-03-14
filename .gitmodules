@@ -1,0 +1,48 @@
+[submodule "server"]
+	path = server
+	url = git@github.com:agxp/server.git
+[submodule "router"]
+	path = router
+	url = git@github.com:agxp/router.git
+[submodule "video-hosting-svc"]
+	path = video-hosting-svc
+	url = git@github.com:agxp/video-hosting-svc.git
+[submodule "video-upload-svc"]
+	path = video-upload-svc
+	url = git@github.com:agxp/video-upload-svc.git
+[submodule "logging-svc"]
+	path = logging-svc
+	url = git@github.com:agxp/logging-svc.git
+[submodule "stats-svc"]
+	path = stats-svc
+	url = git@github.com:agxp/stats-svc.git
+[submodule "video-encoding-svc"]
+	path = video-encoding-svc
+	url = git@github.com:agxp/video-encoding-svc.git
+[submodule "thumb-gen-svc"]
+	path = thumb-gen-svc
+	url = git@github.com:agxp/thumb-gen-svc.git
+[submodule "thumb-fetch-svc"]
+	path = thumb-fetch-svc
+	url = git@github.com:agxp/thumb-fetch-svc.git
+[submodule "view-count-svc"]
+	path = view-count-svc
+	url = git@github.com:agxp/view-count-svc.git
+[submodule "html-gen-svc"]
+	path = html-gen-svc
+	url = git@github.com:agxp/html-gen-svc.git
+[submodule "database-rpc-svc"]
+	path = database-rpc-svc
+	url = git@github.com:agxp/database-rpc-svc.git
+[submodule "video-search-svc"]
+	path = video-search-svc
+	url = git@github.com:agxp/video-search-svc.git
+[submodule "comments-svc"]
+	path = comments-svc
+	url = git@github.com:agxp/comments-svc.git
+[submodule "cache-svc"]
+	path = cache-svc
+	url = git@github.com:agxp/cache-svc.git
+[submodule "trending-svc"]
+	path = trending-svc
+	url = git@github.com:agxp/trending-svc.git
