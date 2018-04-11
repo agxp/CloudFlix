@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: micro
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: micro
+  template:
+    metadata:
+      labels:
+        app: micro
+    spec:
+        containers:
+        - name: micro
+          image: microhq/micro:kubernetes
+          args:
+            - "api"
+            - "--handler=http"
+            - "--namespace=cloudflix.api"
+          env:
+          - name: MICRO_API_ADDRESS
+            value: ":80"
+          ports:
+          - containerPort: 80
+            name: port
