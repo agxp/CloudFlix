@@ -1,0 +1,26 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  namespace: default
+  name: micro-web
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: micro-web
+    spec:
+      containers:
+        - name: web
+          env:
+          - name: MICRO_ENABLE_STATS
+            value: "true"
+          command: [
+            "/micro",
+            "web"
+          ]
+          image: microhq/micro:kubernetes
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 8082
+            name: web-port
