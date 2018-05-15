@@ -7,6 +7,8 @@ vision so far:
 2. run helm init
 3. Install minio with 
 `helm install --name minio --set persistence.size=100Gi,accessKey=minio,secretKey=minio123 stable/minio`
-4. Clone this repository
-5. Install protobuf
-6. cd into each service folder and run `make build-local && make deploy-local`
+4. Port forward minio with `kubectl port-forward <name of minio pod> 9000 --namespace default`
+5. Login to minio at localhost:9000 and create a bucket named `videos`
+6. Clone this repository
+7. Install protobuf
+8. cd into each service folder and run `make build-local && make deploy-local`
