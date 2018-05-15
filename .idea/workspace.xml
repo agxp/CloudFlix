@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router" beforeDir="false" afterPath="$PROJECT_DIR$/router" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-encoding-svc" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-upload-svc" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc" afterDir="false" />
-    </list>
+    <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
