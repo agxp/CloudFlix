@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="" />
+    <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/video-upload-svc/proto/upload.proto" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc/proto/upload.proto" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +16,8 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="345">
               <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-              <folding>
-                <element signature="e#14#166#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -27,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -35,11 +34,8 @@
       <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#129#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="397">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="54" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -47,11 +43,8 @@
       <file leaf-file-name="database.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-upload-svc/database.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="315">
               <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding>
-                <element signature="e#14#66#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -68,23 +61,38 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/router/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="87">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#14#254#0" expanded="true" />
+                <element signature="e#14#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
+      <file leaf-file-name="upload.proto" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/proto/upload.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#14#120#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -137,19 +145,19 @@
         <option value="$PROJECT_DIR$/video-encode-svc/Makefile" />
         <option value="$PROJECT_DIR$/router/deployments/deployment.yaml" />
         <option value="$PROJECT_DIR$/video-upload-svc/Makefile" />
-        <option value="$PROJECT_DIR$/video-upload-svc/proto/upload.proto" />
         <option value="$PROJECT_DIR$/video-upload-svc/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/router/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/router/Makefile" />
         <option value="$PROJECT_DIR$/micro-kube-deploy/config/micro/web.yaml" />
         <option value="$PROJECT_DIR$/video-upload-svc/main.go" />
         <option value="$PROJECT_DIR$/router/deployments/deployment.tmpl" />
-        <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" />
         <option value="$PROJECT_DIR$/video-upload-svc/database.go" />
-        <option value="$PROJECT_DIR$/router/static/index.html" />
         <option value="$PROJECT_DIR$/router/main.go" />
-        <option value="$PROJECT_DIR$/video-upload-svc/repository.go" />
+        <option value="$PROJECT_DIR$/router/static/index.html" />
+        <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" />
         <option value="$PROJECT_DIR$/video-upload-svc/service.go" />
+        <option value="$PROJECT_DIR$/video-upload-svc/repository.go" />
+        <option value="$PROJECT_DIR$/video-upload-svc/proto/upload.proto" />
       </list>
     </option>
   </component>
@@ -176,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,10 +191,39 @@
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
+              <item name="deployments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
+              <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +259,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="31" width="2570" height="1365" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -466,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/deployments/deployment.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -480,20 +510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-upload-svc/database.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="315">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#66#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,23 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
-          <folding>
-            <element signature="e#14#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/proto/upload.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -530,31 +533,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/router/main.go">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="47" />
-          <folding>
-            <element signature="e#14#254#0" expanded="true" />
-          </folding>
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#129#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="397">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-start-column="2" selection-end-line="54" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#14#120#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/proto/upload.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
