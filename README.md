@@ -19,5 +19,6 @@ vision so far:
                          -e "PGADMIN_DEFAULT_PASSWORD=pgadmin123" \
                          -d dpage/pgadmin4
 ` 
-10. Go to localhost:3000, login, and create the database schema using videos_schema.sql
+10. Get the postgresql service address with `minikube service postgres-postgresql --url`
+11. Go to localhost:3000, login, add the postgres server, and create the database schema using videos_schema.sql
 11. cd into each service folder and run `make build-local && make deploy-local`
