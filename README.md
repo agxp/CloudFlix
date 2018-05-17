@@ -6,9 +6,9 @@ vision so far:
 1. Install kubernetes (minikube)
 2. run helm init
 3. Install minio with 
-`helm install --name minio --set persistence.size=100Gi,accessKey=minio,secretKey=minio123 stable/minio`
+`helm install --name minio --set persistence.size=100Gi,accessKey=minio,secretKey=minio123,service.type=LoadBalancer stable/minio`
 4. Port forward minio with `kubectl port-forward <name of minio pod> 9000 --namespace default`
-5. Login to minio at localhost:9000 and create a bucket named `videos`
+5. Login to minio at localhost:9000 and create a bucket named `videos` (or you can do `minikube service minio`)
 6. Clone this repository
 7. Install protobuf
 8. Install PostgreSQL with 
