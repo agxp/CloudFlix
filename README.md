@@ -14,9 +14,7 @@ helm init
 ```  
 3. Install Minio:   
 ```sh
-helm install --name minio --set persistence.size=100Gi, \  
-accessKey=minio,secretKey=minio123, \  
-service.type=LoadBalancer stable/minio  
+helm install --name minio --set persistence.size=100Gi,accessKey=minio,secretKey=minio123,service.type=LoadBalancer stable/minio  
 ```  
 4. Login to Minio at the url and create a bucket named `videos`. 
 ```sh
@@ -34,17 +32,11 @@ git clone https://github.com/agxp/cloudflix.git
 ```
 7. Install PostgreSQL
 ```sh
-helm install --name postgres \
---set postgresUser=postgres,postgresPassword=postgres123, \
-postgresDatabase=videos,metrics.enabled=true, \
-service.type=LoadBalancer stable/postgresql  
+helm install --name postgres --set postgresUser=postgres,postgresPassword=postgres123,postgresDatabase=videos,metrics.enabled=true,service.type=LoadBalancer stable/postgresql  
 ```
 8. Install pgAdmin
 ```sh
-docker run -p 3000:3000 \ 
--e "PGADMIN_DEFAULT_EMAIL=admin@localhost" \ 
--e "PGADMIN_DEFAULT_PASSWORD=pgadmin123" \ 
--d dpage/pgadmin4
+docker run -p 3000:3000 -e "PGADMIN_DEFAULT_EMAIL=admin@localhost" -e "PGADMIN_DEFAULT_PASSWORD=pgadmin123" -d dpage/pgadmin4
 ```
 9. Get the postgresql service address 
 ```sh
@@ -57,13 +49,9 @@ helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.c
 ```
 12. Install Jaeger (with reasonable limits because I don't have infinite RAM)
 ```sh
-helm install incubator/jaeger --name jeager \
---set cassandra.config.max_heap_size=256M \
---set cassandra.config.heap_new_size=64M \
---set cassandra.resources.requests.memory=512Mi \
---set cassandra.resources.requests.cpu=0.4 \
---set cassandra.resources.limits.memory=512Mi \
---set cassandra.resources.limits.cpu=0.4
+# This command will finish quickly but you have to wait ~5 minutes for the three cassandra nodes to initiate. 
+# Until then there will be errors in the k8s dashboard.
+helm install incubator/jaeger --name jaeger --set cassandra.config.max_heap_size=1024M --set cassandra.config.heap_new_size=256M --set cassandra.resources.requests.memory=2048Mi --set cassandra.resources.requests.cpu=0.4 --set cassandra.resources.limits.memory=2048Mi --set cassandra.resources.limits.cpu=0.4
 ```
 13. cd into each service folder and run 
 ```sh
