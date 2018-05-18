@@ -58,11 +58,11 @@ helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.c
 12. Install Jaeger (with reasonable limits because I don't have infinite RAM)
 ```sh
 helm install incubator/jaeger --name jeager \
---set cassandra.config.max_heap_size=1024M \
---set cassandra.config.heap_new_size=256M \
---set cassandra.resources.requests.memory=2048Mi \
+--set cassandra.config.max_heap_size=256M \
+--set cassandra.config.heap_new_size=64M \
+--set cassandra.resources.requests.memory=512Mi \
 --set cassandra.resources.requests.cpu=0.4 \
---set cassandra.resources.limits.memory=2048Mi \
+--set cassandra.resources.limits.memory=512Mi \
 --set cassandra.resources.limits.cpu=0.4
 ```
 13. cd into each service folder and run 
