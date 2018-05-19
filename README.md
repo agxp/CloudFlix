@@ -32,29 +32,61 @@ git clone https://github.com/agxp/cloudflix.git
 ```
 7. Install PostgreSQL
 ```sh
-helm install --name postgres --set postgresUser=postgres,postgresPassword=postgres123,postgresDatabase=videos,metrics.enabled=true,service.type=LoadBalancer stable/postgresql  
+helm install --name postgres --set postgresUser=postgres,postgresPassword=postgres123,postgresDatabase=videos,metrics.enabled=true stable/postgresql  
 ```
 8. Install pgAdmin
 ```sh
-docker run -p 3000:3000 -e "PGADMIN_DEFAULT_EMAIL=admin@localhost" -e "PGADMIN_DEFAULT_PASSWORD=pgadmin123" -d dpage/pgadmin4
+docker run --net="host" -e "PGADMIN_DEFAULT_EMAIL=admin@localhost" -e "PGADMIN_DEFAULT_PASSWORD=pgadmin123" -d dpage/pgadmin4
 ```
-9. Get the postgresql service address 
+9. Forward the postgres port 
 ```sh
-minikube service postgres-postgresql --url
+kubectl port-forward <postgres-pod-name> 5432
 ```
-10. Login to pgAdmin, add the Postgres server, and create the database schema using videos_schema.sql
+10. Add db schema
+- Login to pgAdmin (localhost:80)
+- add the Postgres server (localhost:5432)
+- create the database schema using videos_schema.sql
 11. Add the incubator repo to helm with 
 ```
 helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/
 ```
-12. Install Jaeger (with reasonable limits because I don't have infinite RAM)
+12. Install Jaeger
 ```sh
-# This command will finish quickly but you have to wait ~5 minutes for the three cassandra nodes to initiate. 
-# Until then there will be errors in the k8s dashboard.
-helm install incubator/jaeger --name jaeger --set cassandra.config.max_heap_size=1024M --set cassandra.config.heap_new_size=256M --set cassandra.resources.requests.memory=2048Mi --set cassandra.resources.requests.cpu=0.4 --set cassandra.resources.limits.memory=2048Mi --set cassandra.resources.limits.cpu=0.4
+kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-kubernetes/master/all-in-one/jaeger-all-in-one-template.yml
 ```
-13. cd into each service folder and run 
+13. Fix the serviceaccount settings (warning: this is insecure)
+```sh
+kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=default:default
+```
+14. Install Prometheus
+```sh
+kubectl create -f https://raw.githubusercontent.com/coreos/prometheus-operator/master/bundle.yaml
+```
+Wait till pods are green (~1 minute)
+```
+kubectl create -f https://raw.githubusercontent.com/objectiser/opentracing-prometheus-example/master/prometheus-kubernetes.yml
+```
+15. Install Grafana
+```
+helm install --name grafana --set service.type=LoadBalancer stable/grafana
+```
+- Get the Prometheus URL with `minikube service prometheus --url`
+- Port-forward Grafana
+```
+kubectl port-forward <grafana-pod-name> 3000:3000
+```
+- Login to Grafana with user admin and password 
+```sh
+kubectl exec <grafana-pod-name> -- printenv | grep PASSWORD
+```
+- Add the prometheus URL as a new data source
+- Create a dashboard using `http://raw.githubusercontent.com/objectiser/opentracing-prometheus-example/master/simple/GrafanaDashboard.json`
+14. cd into each service folder and run 
 ```sh
 # TODO
 make build-local && make deploy-local
 ```
+
+
+![Jaeger view](https://lh4.googleusercontent.com/Jt6-KFhyQ2eimGyenLVH3I3KpiikEMKbhBtb_Tjub1zA49rKyXYS6nS3LjRzlZ2P1k2fse1Hx4V7-VkSJOmwlIcq5PiMEtntxobrgy9y52WLDTnZLAPGMdqT7KhT9kUw86vYD1c3=s0)
+

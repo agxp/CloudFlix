@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="" />
+    <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/root.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/root.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-upload-svc" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,54 +15,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="upload.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-upload-svc/proto/upload.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="deployment.tmpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="616">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/service.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default-access.yaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/micro-kube-deploy/default-access.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+              <folding>
+                <element signature="e#14#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="665">
+                <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -65,35 +79,29 @@
       <file leaf-file-name="database.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-upload-svc/database.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="525">
+              <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="micro-service.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/micro-service.yaml">
+      <file leaf-file-name="service.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+              <folding>
+                <element signature="e#14#120#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router/main.go">
+      <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="607">
-              <caret line="61" column="71" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
+            <state relative-caret-position="366">
+              <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,8 +111,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -112,7 +120,13 @@
     <findStrings>
       <find>video-u</find>
       <find>video</find>
+      <find>opentracing.StartSpanFromContext(context.Background(),</find>
+      <find>(*tracer)</find>
     </findStrings>
+    <replaceStrings>
+      <replace>(*tracer).StartSpan(</replace>
+      <replace>opentracing</replace>
+    </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/lib/go-1.10" />
   <component name="Git.Settings">
@@ -137,21 +151,24 @@
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/video-encode-svc/Makefile" />
         <option value="$PROJECT_DIR$/router/deployments/deployment.yaml" />
-        <option value="$PROJECT_DIR$/video-upload-svc/Makefile" />
-        <option value="$PROJECT_DIR$/video-upload-svc/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/router/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/router/Makefile" />
         <option value="$PROJECT_DIR$/micro-kube-deploy/config/micro/web.yaml" />
         <option value="$PROJECT_DIR$/router/deployments/deployment.tmpl" />
-        <option value="$PROJECT_DIR$/video-upload-svc/main.go" />
-        <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/video-upload-svc/database.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/proto/upload.proto" />
-        <option value="$PROJECT_DIR$/video-upload-svc/repository.go" />
-        <option value="$PROJECT_DIR$/video-upload-svc/service.go" />
         <option value="$PROJECT_DIR$/router/main.go" />
         <option value="$PROJECT_DIR$/router/static/index.html" />
+        <option value="$PROJECT_DIR$/cmd/root.go" />
+        <option value="$PROJECT_DIR$/video-upload-svc/Makefile" />
+        <option value="$PROJECT_DIR$/video-upload-svc/deployments/service.yaml" />
+        <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" />
+        <option value="$PROJECT_DIR$/video-upload-svc/database.go" />
+        <option value="$PROJECT_DIR$/tracer/wrapper.go" />
+        <option value="$PROJECT_DIR$/../../micro/go-plugins/wrapper/trace/opentracing/opentracing.go" />
+        <option value="$PROJECT_DIR$/video-upload-svc/main.go" />
+        <option value="$PROJECT_DIR$/video-upload-svc/service.go" />
+        <option value="$PROJECT_DIR$/video-upload-svc/repository.go" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -165,10 +182,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
+    <option name="x" value="1280" />
     <option name="y" value="31" />
-    <option name="width" value="2570" />
-    <option name="height" value="1365" />
+    <option name="width" value="1280" />
+    <option name="height" value="1360" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,12 +195,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-kube-deploy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-kube-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-kube-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="micro-kube-deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
@@ -199,6 +245,11 @@
             <path>
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="tracer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
               <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,22 +258,16 @@
               <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
               <item name="deployments" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/agxp/go/src/github.com/agxp/cloudflix/cmd/root.go" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -253,17 +298,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="31" width="2570" height="1365" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32933652" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32881084" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039065" side_tool="true" weight="0.32933652" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32985553" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960938" weight="0.32933652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32933652" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33013588" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -281,80 +327,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/router/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/deployments/deployment.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/deployments/service.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ingress.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/router/service.go" />
-    <entry file="file://$PROJECT_DIR$/router/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-encode-svc/README.md" />
     <entry file="file://$PROJECT_DIR$/video-encode-svc/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/video-encode-svc/proto/encode.proto" />
     <entry file="file://$PROJECT_DIR$/video-encode-svc/main.go" />
     <entry file="file://$PROJECT_DIR$/video-encode-svc/Makefile" />
-    <entry file="file://$PROJECT_DIR$/ingress.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/deployments/deployment.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -369,13 +355,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="42" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -419,13 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/micro-kube-deploy/config/micro/api.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -442,32 +414,6 @@
     <entry file="file://$PROJECT_DIR$/micro-kube-deploy/config/micro/api-svc.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/service.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-deploy.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statefulset.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/minio_distributed.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/deployments/service.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -482,20 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/micro-service.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sql" />
     <entry file="file:///usr/lib/go-1.10/src/database/sql/sql.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -510,30 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="360">
-            <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/database.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-upload-svc/proto/upload.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -541,44 +450,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="1440">
           <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/router/static/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
+        <state relative-caret-position="915">
           <caret line="61" column="71" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmd/root.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitmodules">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ingress.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statefulset.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="74" lean-forward="true" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minio_distributed.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minio-service.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-deploy.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-kube-deploy/scripts/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tracer/wrapper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="149" column="34" lean-forward="true" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/micro-kube-deploy/default-access.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../micro/go-plugins/wrapper/trace/opentracing/opentracing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../opentracing/opentracing-go/gocontext.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="42" column="96" selection-start-line="42" selection-start-column="96" selection-end-line="42" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="e#14#120#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="665">
+            <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
