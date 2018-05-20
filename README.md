@@ -87,6 +87,6 @@ kubectl exec <grafana-pod-name> -- printenv | grep PASSWORD
 make build-local && make deploy-local
 ```
 
-
+Jaeger view:
 ![Jaeger view](https://lh4.googleusercontent.com/Jt6-KFhyQ2eimGyenLVH3I3KpiikEMKbhBtb_Tjub1zA49rKyXYS6nS3LjRzlZ2P1k2fse1Hx4V7-VkSJOmwlIcq5PiMEtntxobrgy9y52WLDTnZLAPGMdqT7KhT9kUw86vYD1c3=s0)
 
