@@ -6,7 +6,7 @@ vision so far:
 # Running  
 1. Install Kubernetes (minikube):  
 ```sh  
-# TODO
+sh ./minikube.sh
 ```  
 2. Init helm:  
 ```sh  
@@ -64,32 +64,19 @@ kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-kuberne
 ```sh
 kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=default:default
 ```
-14. Install Prometheus
+14. Install Prometheus and Grafana
 ```sh
-kubectl create -f https://raw.githubusercontent.com/coreos/prometheus-operator/master/bundle.yaml
+kubectl create -f monitor/kubernetes-prometheus/manifests-all.yaml
 ```
-Wait till pods are green (~1 minute)
+- Wait till pods are green (~1 minute), then initialize the dashboards
+- Because of some errors we have to delete and recreate the job 
 ```
-kubectl create -f https://raw.githubusercontent.com/objectiser/opentracing-prometheus-example/master/prometheus-kubernetes.yml
+kubectl --namespace monitoring delete job grafana-import-dashboards    
+kubectl apply --filename ./manifests/grafana/import-dashboards/job.yaml
 ```
-15. Install Grafana
-```
-helm install --name grafana --set service.type=LoadBalancer stable/grafana
-```
-- Get the Prometheus URL with `minikube service prometheus --url`
-- Port-forward Grafana
-```
-kubectl port-forward <grafana-pod-name> 3000:3000
-```
-- Login to Grafana with user admin and password 
+- Then wait ~1 minute to initialize
+15. cd into each service folder and run 
 ```sh
-kubectl exec <grafana-pod-name> -- printenv | grep PASSWORD
-```
-- Add the prometheus URL as a new data source
-- Create a dashboard using `http://raw.githubusercontent.com/objectiser/opentracing-prometheus-example/master/simple/GrafanaDashboard.json`
-14. cd into each service folder and run 
-```sh
-# TODO
 make build-local && make deploy-local
 ```
 
@@ -103,8 +90,8 @@ Jaeger view:
 Barebones skeleton UI:
 ![User interface](https://lh4.googleusercontent.com/LGdN-l5lC-WMlyCJdC1Fd9mNq2pt2ifBkdAHFtYrCcCHeY5bk5FnmIi6q1aEPn3YLU4nBlc6X_4fZDs9CoilAvkU0SuQ_ni1SlFwnUdFj7U8iOMsYG3xc50o0VAgof6w37obwVw7=s0)
 
-Prometheus view:
-![Prometheus](https://lh4.googleusercontent.com/K-NkFuy4fTox2LlcdC8v2oPp_RgimFSMqGItj87GmpnIst97B8U2ud4x7Nf8JEuD4HF6vLWvVvjgJIadhx1cBDsOwaqjbHcHep9UoJGuZFirTHT24fWDG6yTXbLfCmdEOfX-wDUz=s0)
+Grafana view (during load-testing):
+![Grafana](https://lh3.googleusercontent.com/por35HRMf-rY04wWIdex_Mh5q685jazjSjUloB40s4iAwMSM518KGTRpawLc39QKy7HejBKq9t_SNdViiPfyqXd0hfff-i4vlmdY59iBX4VhLyCq-m_TMexAfHqMX0V0NhEyrowP=s0)
 
-Grafana view (still working on it):
-![Grafana](https://lh5.googleusercontent.com/xz-ga9TxKQYks4fhDRuhvwcZohxDq5L8Gt6JPrQEIffxz2VEMf6h6Jel9PPVrlCpGDDGO6yWJxUSnIIRmuGmUH9VRdrRMXRu_Gw1sax3_N_m150EZteqlT9bwL7ja3Q82k9w1N1P=s0)
+Prometheus view (during load-testing):
+![Prometheus](https://lh6.googleusercontent.com/StrlXRaH8MLCydYrYmQSZvqIvN7LMn8Ev3eX_4D5VG0yDmL-mEfuuB47XrBkJRNE_W2W7CDTR1PJ8N6rBOP3E63PrMOzQkPgMLbKf5UMkEMQUPmQ46k9eaOEpKkJFTiNIbPhG0n-=s0)
