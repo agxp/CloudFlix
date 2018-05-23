@@ -1,6 +1,3 @@
-[submodule "server"]
-	path = server
-	url = git@github.com:agxp/server.git
 [submodule "router"]
 	path = router
 	url = git@github.com:agxp/router.git
@@ -10,9 +7,6 @@
 [submodule "video-upload-svc"]
 	path = video-upload-svc
 	url = git@github.com:agxp/video-upload-svc.git
-[submodule "logging-svc"]
-	path = logging-svc
-	url = git@github.com:agxp/logging-svc.git
 [submodule "stats-svc"]
 	path = stats-svc
 	url = git@github.com:agxp/stats-svc.git
@@ -31,9 +25,6 @@
 [submodule "html-gen-svc"]
 	path = html-gen-svc
 	url = git@github.com:agxp/html-gen-svc.git
-[submodule "database-rpc-svc"]
-	path = database-rpc-svc
-	url = git@github.com:agxp/database-rpc-svc.git
 [submodule "video-search-svc"]
 	path = video-search-svc
 	url = git@github.com:agxp/video-search-svc.git
