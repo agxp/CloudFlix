@@ -93,6 +93,18 @@ kubectl exec <grafana-pod-name> -- printenv | grep PASSWORD
 make build-local && make deploy-local
 ```
 
-Jaeger view:
-![Jaeger view](https://lh4.googleusercontent.com/Jt6-KFhyQ2eimGyenLVH3I3KpiikEMKbhBtb_Tjub1zA49rKyXYS6nS3LjRzlZ2P1k2fse1Hx4V7-VkSJOmwlIcq5PiMEtntxobrgy9y52WLDTnZLAPGMdqT7KhT9kUw86vYD1c3=s0)
+## Progress
+Some simple (naive) load-testing for latency
+![Load testing](https://lh3.googleusercontent.com/vm0TSr3Ezj-5WHb1QrLxc6o1XpQzGEn9GOKZ1C4q00Gw_YDmfT7YaNsddUt4Gnj3i-d4Wf5nLxNstsvYvz699GJDZUdqyZfflnTeVNHaZVrAWondt9Smr-Qr3bW3CLP6Uk-IItZ0=s0)
 
+Jaeger view:
+![Jaeger view](https://lh4.googleusercontent.com/rmslgs7gFze1oSLFdBhfqPcY7dsJ_HiYc3zEecJBttLF35vSjJsFSOtqKihRGzg97UBWrPTUvsBNV4hUBgG7u-d9wDZtfSd7McH7HorMgUOQqV3--X0QYDCTj6J4dqtEbn7pkmyv=s0)
+
+Barebones skeleton UI:
+![User interface](https://lh4.googleusercontent.com/LGdN-l5lC-WMlyCJdC1Fd9mNq2pt2ifBkdAHFtYrCcCHeY5bk5FnmIi6q1aEPn3YLU4nBlc6X_4fZDs9CoilAvkU0SuQ_ni1SlFwnUdFj7U8iOMsYG3xc50o0VAgof6w37obwVw7=s0)
+
+Prometheus view:
+![Prometheus](https://lh4.googleusercontent.com/K-NkFuy4fTox2LlcdC8v2oPp_RgimFSMqGItj87GmpnIst97B8U2ud4x7Nf8JEuD4HF6vLWvVvjgJIadhx1cBDsOwaqjbHcHep9UoJGuZFirTHT24fWDG6yTXbLfCmdEOfX-wDUz=s0)
+
+Grafana view (still working on it):
+![Grafana](https://lh5.googleusercontent.com/xz-ga9TxKQYks4fhDRuhvwcZohxDq5L8Gt6JPrQEIffxz2VEMf6h6Jel9PPVrlCpGDDGO6yWJxUSnIIRmuGmUH9VRdrRMXRu_Gw1sax3_N_m150EZteqlT9bwL7ja3Q82k9w1N1P=s0)

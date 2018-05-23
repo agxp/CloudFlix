@@ -2,5 +2,21 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cache-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/comments-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/database-rpc-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/html-gen-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/logging-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/router" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stats-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thumb-fetch-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/thumb-gen-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/trending-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/video-encoding-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/video-hosting-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/video-search-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/video-upload-svc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/view-count-svc" vcs="Git" />
   </component>
 </project>
