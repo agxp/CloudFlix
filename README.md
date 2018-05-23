@@ -24,7 +24,7 @@ minikube service minio --url
 ```sh
 cd $GOPATH/src/github.com # mkdir github.com if needed
 mkdir agxp && cd agxp
-git clone https://github.com/agxp/cloudflix.git
+git clone --recurse-submodules -j8 https://github.com/agxp/cloudflix.git
 ```
 6. Install protobuf
 ```sh
@@ -46,6 +46,12 @@ kubectl port-forward <postgres-pod-name> 5432
 - Login to pgAdmin (localhost:80)
 - add the Postgres server (localhost:5432)
 - create the database schema using videos_schema.sql
+##### ALTERNATIVELY
+```sh
+docker cp ./videos_schema.sql <pgadminContainerID>:/videos_schema.sql
+docker exec -it <pgadminContainerID> /bin/sh
+psql -U postgres -h localhost -d videos -f /videos_schema.sql
+```
 11. Add the incubator repo to helm with 
 ```
 helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com/

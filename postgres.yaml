@@ -1,0 +1,171 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: 2018-05-22T22:45:02Z
+  generateName: postgres-postgresql-5d8cb9798-
+  labels:
+    app: postgres-postgresql
+    pod-template-hash: "184765354"
+  name: postgres-postgresql-5d8cb9798-nnq9l
+  namespace: default
+  ownerReferences:
+  - apiVersion: extensions/v1beta1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: postgres-postgresql-5d8cb9798
+    uid: 2428a8c4-5afd-11e8-9c04-902b3432c80f
+  resourceVersion: "159929"
+  selfLink: /api/v1/namespaces/default/pods/postgres-postgresql-5d8cb9798-nnq9l
+  uid: c39ba606-5e11-11e8-b4b5-902b3432c80f
+spec:
+  containers:
+  - env:
+    - name: POSTGRES_USER
+      value: postgres
+    - name: PGUSER
+      value: postgres
+    - name: POSTGRES_DB
+      value: videos
+    - name: POSTGRES_INITDB_ARGS
+    - name: PGDATA
+      value: /var/lib/postgresql/data/pgdata
+    - name: POSTGRES_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          key: postgres-password
+          name: postgres-postgresql
+    - name: POD_IP
+      valueFrom:
+        fieldRef:
+          apiVersion: v1
+          fieldPath: status.podIP
+    image: postgres:9.6.2
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      exec:
+        command:
+        - sh
+        - -c
+        - exec pg_isready --host $POD_IP
+      failureThreshold: 6
+      initialDelaySeconds: 120
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 5
+    name: postgres-postgresql
+    ports:
+    - containerPort: 5432
+      name: postgresql
+      protocol: TCP
+    readinessProbe:
+      exec:
+        command:
+        - sh
+        - -c
+        - exec pg_isready --host $POD_IP
+      failureThreshold: 3
+      initialDelaySeconds: 5
+      periodSeconds: 5
+      successThreshold: 1
+      timeoutSeconds: 3
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/lib/postgresql/data/pgdata
+      name: data
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: default-token-t8dtt
+      readOnly: true
+  - env:
+    - name: DATA_SOURCE_NAME
+      value: postgresql://postgres@127.0.0.1:5432?sslmode=disable
+    image: wrouesnel/postgres_exporter:v0.1.1
+    imagePullPolicy: IfNotPresent
+    name: metrics
+    ports:
+    - containerPort: 9187
+      name: metrics
+      protocol: TCP
+    resources:
+      requests:
+        cpu: 100m
+        memory: 256Mi
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: default-token-t8dtt
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  nodeName: minikube
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: data
+    persistentVolumeClaim:
+      claimName: postgres-postgresql
+  - name: default-token-t8dtt
+    secret:
+      defaultMode: 420
+      secretName: default-token-t8dtt
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: 2018-05-22T22:45:02Z
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: 2018-05-22T22:45:02Z
+    message: 'containers with unready status: [postgres-postgresql]'
+    reason: ContainersNotReady
+    status: "False"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: 2018-05-22T22:45:02Z
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: docker://e713e92f4e1d3b68d3b9a172b968d15fb094313db7fdce96ddc24632d9e99097
+    image: wrouesnel/postgres_exporter:v0.1.1
+    imageID: docker-pullable://wrouesnel/postgres_exporter@sha256:d8bc6221112d77b2d7b7746b729f848b0db60823eb385355636943934c09d822
+    lastState: {}
+    name: metrics
+    ready: true
+    restartCount: 0
+    state:
+      running:
+        startedAt: 2018-05-22T22:45:06Z
+  - image: postgres:9.6.2
+    imageID: ""
+    lastState: {}
+    name: postgres-postgresql
+    ready: false
+    restartCount: 0
+    state:
+      waiting:
+        message: 'lstat /tmp/hostpath-provisioner/pvc-2410587a-5afd-11e8-9c04-902b3432c80f:
+          no such file or directory'
+        reason: CreateContainerConfigError
+  hostIP: 192.168.1.74
+  phase: Pending
+  podIP: 172.17.0.9
+  qosClass: Burstable
+  startTime: 2018-05-22T22:45:02Z
