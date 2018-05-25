@@ -8,6 +8,13 @@ vision so far:
 ```sh  
 sh ./minikube.sh
 ```  
+- Note: You may experience kube-dns failures when using --vm-driver=none, so see the following issue for a solution
+- https://github.com/kubernetes/minikube/issues/2027
+- tl;dr: 
+- `sudo systemctl stop systemd-resolved`
+- `sudo systemctl disable systemd-resolved`
+- edit file `/etc/resolv.conf`, the only line should be `nameserver 8.8.8.8`
+- delete the kube-dns pod  
 2. Init helm:  
 ```sh  
 helm init 
