@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,32 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="service.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trending-svc/deployments/service.yaml">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/router/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="-925">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/router/main.go">
+      <file leaf-file-name="search.proto" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-search-svc/proto/search.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2865">
-              <caret line="206" selection-start-line="206" selection-end-line="206" />
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="service.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trending-svc/service.go">
+        <entry file="file://$PROJECT_DIR$/video-search-svc/service.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-              <folding>
-                <element signature="e#14#163#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -47,26 +43,8 @@
       <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trending-svc/repository.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifests-all.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests-all.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-615">
-              <caret line="361" column="15" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="job.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests/grafana/import-dashboards/job.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+            <state relative-caret-position="278">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -75,19 +53,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <first_editor relative-caret-position="638">
+                <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trending.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trending-svc/proto/trending.proto">
+      <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-search-svc/repository.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="204">
+              <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -117,10 +95,12 @@
       <find>time</find>
       <find>filenamepost</find>
       <find>grafana</find>
+      <find>video_search</find>
     </findStrings>
     <replaceStrings>
       <replace>(*tracer).StartSpan(</replace>
       <replace>opentracing</replace>
+      <replace>video-search</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/lib/go-1.10" />
@@ -131,13 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/router/service.go" />
-        <option value="$PROJECT_DIR$/ingress.yaml" />
-        <option value="$PROJECT_DIR$/router/Dockerfile" />
-        <option value="$PROJECT_DIR$/video-upload-svc/Dockerfile" />
-        <option value="$PROJECT_DIR$/micro-service.yaml" />
-        <option value="$PROJECT_DIR$/micro-deploy.yaml" />
-        <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.yaml" />
         <option value="$PROJECT_DIR$/video-upload-svc/.gitignore" />
         <option value="$PROJECT_DIR$/video-encoding-svc/Makefile" />
         <option value="$PROJECT_DIR$/video-encoding-svc/Dockerfile" />
@@ -177,9 +150,17 @@
         <option value="$PROJECT_DIR$/trending-svc/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/trending-svc/proto/trending.proto" />
         <option value="$PROJECT_DIR$/trending-svc/service.go" />
+        <option value="$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests/grafana/import-dashboards/job.yaml" />
+        <option value="$PROJECT_DIR$/video-search-svc/Dockerfile" />
+        <option value="$PROJECT_DIR$/video-search-svc/main.go" />
+        <option value="$PROJECT_DIR$/video-search-svc/deployments/service.yaml" />
+        <option value="$PROJECT_DIR$/video-search-svc/Makefile" />
+        <option value="$PROJECT_DIR$/video-search-svc/deployments/deployment.tmpl" />
+        <option value="$PROJECT_DIR$/video-search-svc/proto/search.proto" />
+        <option value="$PROJECT_DIR$/video-search-svc/service.go" />
+        <option value="$PROJECT_DIR$/video-search-svc/repository.go" />
         <option value="$PROJECT_DIR$/router/main.go" />
         <option value="$PROJECT_DIR$/trending-svc/repository.go" />
-        <option value="$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests/grafana/import-dashboards/job.yaml" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -217,100 +198,29 @@
             <path>
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="kubernetes-prometheus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="kubernetes-prometheus" type="462c0819:PsiDirectoryNode" />
-              <item name="configs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="kubernetes-prometheus" type="462c0819:PsiDirectoryNode" />
-              <item name="manifests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="kubernetes-prometheus" type="462c0819:PsiDirectoryNode" />
-              <item name="manifests" type="462c0819:PsiDirectoryNode" />
-              <item name="grafana" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="monitor" type="462c0819:PsiDirectoryNode" />
-              <item name="kubernetes-prometheus" type="462c0819:PsiDirectoryNode" />
-              <item name="manifests" type="462c0819:PsiDirectoryNode" />
-              <item name="grafana" type="462c0819:PsiDirectoryNode" />
-              <item name="import-dashboards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="router" type="462c0819:PsiDirectoryNode" />
+              <item name="trending-svc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="video-search-svc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="video-search-svc" type="462c0819:PsiDirectoryNode" />
               <item name="deployments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="trending-svc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="trending-svc" type="462c0819:PsiDirectoryNode" />
-              <item name="deployments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="trending-svc" type="462c0819:PsiDirectoryNode" />
+              <item name="video-search-svc" type="462c0819:PsiDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="video-hosting-svc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="video-hosting-svc" type="462c0819:PsiDirectoryNode" />
-              <item name="deployments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="video-hosting-svc" type="462c0819:PsiDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
-              <item name="video-upload-svc" type="462c0819:PsiDirectoryNode" />
-              <item name="deployments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,13 +240,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/video-upload-svc/bin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/video-search-svc" />
       <recent name="$PROJECT_DIR$/video-encoding-svc" />
       <recent name="$PROJECT_DIR$/router" />
       <recent name="$PROJECT_DIR$/video-upload-svc/deployments" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/video-upload-svc/bin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,50 +305,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/micro-service.yaml" />
-    <entry file="file://$PROJECT_DIR$/.gitmodules">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ingress.yaml" />
-    <entry file="file://$PROJECT_DIR$/statefulset.yaml" />
-    <entry file="file://$PROJECT_DIR$/minio_distributed.sh" />
-    <entry file="file://$PROJECT_DIR$/minio-service.yaml" />
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/micro-deploy.yaml" />
-    <entry file="file://$PROJECT_DIR$/micro-kube-deploy/scripts/run.sh" />
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/service.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tracer/wrapper.go" />
-    <entry file="file://$PROJECT_DIR$/micro-kube-deploy/default-access.yaml" />
-    <entry file="file://$PROJECT_DIR$/../../micro/go-plugins/wrapper/trace/opentracing/opentracing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../opentracing/opentracing-go/gocontext.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
@@ -498,13 +369,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
@@ -595,6 +459,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="e#316#529#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -653,22 +520,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/router/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2865">
-          <caret line="206" selection-start-line="206" selection-end-line="206" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/build.sh">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trending-svc/repository.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests-all.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -684,11 +537,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/database.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="42" lean-forward="true" selection-start-line="76" selection-start-column="42" selection-end-line="76" selection-end-column="42" />
+          <folding>
+            <element signature="e#14#584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/service.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/proto/upload.proto">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/deployments/service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/deployments/deployment.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/proto/search.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/service.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-search-svc/repository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trending-svc/repository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <first_editor relative-caret-position="638">
+            <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
           </first_editor>
           <second_editor />
         </state>

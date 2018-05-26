@@ -97,8 +97,11 @@ Jaeger view:
 Barebones skeleton UI:
 ![User interface](https://lh4.googleusercontent.com/LGdN-l5lC-WMlyCJdC1Fd9mNq2pt2ifBkdAHFtYrCcCHeY5bk5FnmIi6q1aEPn3YLU4nBlc6X_4fZDs9CoilAvkU0SuQ_ni1SlFwnUdFj7U8iOMsYG3xc50o0VAgof6w37obwVw7=s0)
 
-Grafana view (during load-testing):
+Grafana view (load-testing video-host (get url, data, etc)):
 ![Grafana](https://lh3.googleusercontent.com/por35HRMf-rY04wWIdex_Mh5q685jazjSjUloB40s4iAwMSM518KGTRpawLc39QKy7HejBKq9t_SNdViiPfyqXd0hfff-i4vlmdY59iBX4VhLyCq-m_TMexAfHqMX0V0NhEyrowP=s0)
+
+Load testing video-search-svc (crashed lol)
+![Failed](https://lh4.googleusercontent.com/ZwCdruhdvEb_JGk_uTSHskaCDZ6EYsmiYoAgJace1svYcg4yi6vwULLZRw6v-_AMA-Y9h2knxZZ9i2-Q475AuUOgy3IgOukr2CdPvPJrne_oKBk-tddkaVuaoZVGZKpglHQMT6Hr=s0)
 
 Prometheus view (during load-testing):
 ![Prometheus](https://lh6.googleusercontent.com/StrlXRaH8MLCydYrYmQSZvqIvN7LMn8Ev3eX_4D5VG0yDmL-mEfuuB47XrBkJRNE_W2W7CDTR1PJ8N6rBOP3E63PrMOzQkPgMLbKf5UMkEMQUPmQ46k9eaOEpKkJFTiNIbPhG0n-=s0)
