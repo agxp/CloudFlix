@@ -37,9 +37,9 @@ git clone --recurse-submodules -j8 https://github.com/agxp/cloudflix.git
 ```sh
 # TODO
 ```
-7. Install PostgreSQL
+7. Install PostgreSQL (note: on minikube there are bugs so we have to set persistence to false)
 ```sh
-helm install --name postgres --set postgresUser=postgres,postgresPassword=postgres123,postgresDatabase=videos,metrics.enabled=true stable/postgresql  
+helm install --name postgres --set persistence.enabled=false,postgresUser=postgres,postgresPassword=postgres123,postgresDatabase=videos,metrics.enabled=true stable/postgresql  
 ```
 8. Install pgAdmin
 ```sh
@@ -67,11 +67,15 @@ helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.c
 ```sh
 kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-kubernetes/master/all-in-one/jaeger-all-in-one-template.yml
 ```
-13. Fix the serviceaccount settings (warning: this is insecure)
+13. Install Redis (two slaves and persistence off like postgres)
+```sh
+helm install --name redis --set persistence.enabled=false,cluster.slaveCount=2,usePassword=false,metrics.enabled=true stable/redis
+```
+14. Fix the serviceaccount settings (warning: this is insecure)
 ```sh
 kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=default:default
 ```
-14. Install Prometheus and Grafana
+15. Install Prometheus and Grafana
 ```sh
 kubectl create -f monitor/kubernetes-prometheus/manifests-all.yaml
 ```
@@ -82,7 +86,7 @@ kubectl --namespace monitoring delete job grafana-import-dashboards
 kubectl apply --filename ./manifests/grafana/import-dashboards/job.yaml
 ```
 - Then wait ~1 minute to initialize
-15. cd into each service folder and run 
+16. cd into each service folder and run 
 ```sh
 make build-local && make deploy-local
 ```
@@ -94,14 +98,25 @@ Some simple (naive) load-testing for latency
 Jaeger view:
 ![Jaeger view](https://lh4.googleusercontent.com/rmslgs7gFze1oSLFdBhfqPcY7dsJ_HiYc3zEecJBttLF35vSjJsFSOtqKihRGzg97UBWrPTUvsBNV4hUBgG7u-d9wDZtfSd7McH7HorMgUOQqV3--X0QYDCTj6J4dqtEbn7pkmyv=s0)
 
+Jaeger view 10,000 requests/s:
+![Jaeger view 10,000 requests/s](https://lh5.googleusercontent.com/zD6QRBdLEI-fsOSqeLutnpavPs7Ay_WDbL1hhGjftY4wisEiVSLwCb5m7FCauxBgpD-7l0eAoy8Na38CuSn7THpaJvAC0W4NiFiTiBE_Ci3Dr0M4m7-C_ozUJhdiEwDjq_k3Kkoi=s0)
+- As you can see compared to the first Jaeger view where requests took on average 1-2ms, during heavy load of 10,000 requests/second we end up with widely varying (but still reasonable) response times (up to 3 seconds)
+
 Barebones skeleton UI:
 ![User interface](https://lh4.googleusercontent.com/LGdN-l5lC-WMlyCJdC1Fd9mNq2pt2ifBkdAHFtYrCcCHeY5bk5FnmIi6q1aEPn3YLU4nBlc6X_4fZDs9CoilAvkU0SuQ_ni1SlFwnUdFj7U8iOMsYG3xc50o0VAgof6w37obwVw7=s0)
 
-Grafana view (load-testing video-host (get url, data, etc)):
+Grafana view (naive load-testing video-host without caching (get url, data, etc)):
 ![Grafana](https://lh3.googleusercontent.com/por35HRMf-rY04wWIdex_Mh5q685jazjSjUloB40s4iAwMSM518KGTRpawLc39QKy7HejBKq9t_SNdViiPfyqXd0hfff-i4vlmdY59iBX4VhLyCq-m_TMexAfHqMX0V0NhEyrowP=s0)
 
-Load testing video-search-svc (crashed lol)
+Heavy Load testing video-search-svc (1000r/s, crashed lol)
 ![Failed](https://lh4.googleusercontent.com/ZwCdruhdvEb_JGk_uTSHskaCDZ6EYsmiYoAgJace1svYcg4yi6vwULLZRw6v-_AMA-Y9h2knxZZ9i2-Q475AuUOgy3IgOukr2CdPvPJrne_oKBk-tddkaVuaoZVGZKpglHQMT6Hr=s0)
+- Here the obvious bottleneck is the excessive database calls, so it is a good idea to add caching
+
+Heavy Load testing video-hosting-svc GetVideoInfo (with caching, eg redis)
+- Notice postgres cpu usage is 0
+- Capped at 10,000 requests/s with 10 router pods and 10 video-host pods (crashed after that)
+![Success](https://lh5.googleusercontent.com/nsqiXpvMAE1DX-2rJ0WhVC1vquyY79zarvI_ViyNDl9FKzXT3QMTKZ7KhBWFLaeb0-lCcLhDfuqwJISmy2ouWkOrePu_ojN43gfIeyO4FiOTCJy5NhX6oKvL_-cpkxfMm8K_a2El=s0)
+
 
 Prometheus view (during load-testing):
 ![Prometheus](https://lh6.googleusercontent.com/StrlXRaH8MLCydYrYmQSZvqIvN7LMn8Ev3eX_4D5VG0yDmL-mEfuuB47XrBkJRNE_W2W7CDTR1PJ8N6rBOP3E63PrMOzQkPgMLbKf5UMkEMQUPmQ46k9eaOEpKkJFTiNIbPhG0n-=s0)
