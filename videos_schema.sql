@@ -41,6 +41,7 @@ SET default_with_oids = false;
 CREATE TABLE comments (
     id text NOT NULL,
     video_id text NOT NULL,
+    date_created timestamp NOT NULL,
     user_id text NOT NULL,
     content text NOT NULL,
     likes bigint NOT NULL,
