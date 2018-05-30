@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/comments-svc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/database.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/deployments/deployment.tmpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/deployments/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/proto/comments.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/repository.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comments-svc/service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/deployments/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/router/deployments/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests-all.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests-all.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-hosting-svc/deployments/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/video-hosting-svc/deployments/deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-hosting-svc/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-hosting-svc/repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-hosting-svc/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-hosting-svc/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/videos_schema.sql" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,39 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trending-svc/repository.go">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/video-hosting-svc/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+            <state relative-caret-position="120">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comments-svc/repository.go">
+      <file leaf-file-name="deployment.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="894">
-              <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comments.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comments-svc/proto/comments.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/comments-svc/service.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="324">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -93,6 +63,7 @@
       <find>video_search</find>
       <find>context.Background</find>
       <find>comments</find>
+      <find>image</find>
     </findStrings>
     <replaceStrings>
       <replace>(*tracer).StartSpan(</replace>
@@ -107,15 +78,11 @@
   <component name="GOROOT" path="/usr/lib/go-1.10" />
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/comments-svc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/video-hosting-svc" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/router/deployments/service.yaml" />
-        <option value="$PROJECT_DIR$/micro-kube-deploy/config/micro/web.yaml" />
-        <option value="$PROJECT_DIR$/video-upload-svc/proto/upload.proto" />
-        <option value="$PROJECT_DIR$/cmd/root.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/Makefile" />
         <option value="$PROJECT_DIR$/video-upload-svc/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/video-upload-svc/database.go" />
@@ -149,13 +116,11 @@
         <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" />
         <option value="$PROJECT_DIR$/video-hosting-svc/database.go" />
         <option value="$PROJECT_DIR$/video-hosting-svc/main.go" />
-        <option value="$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/comments-svc/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/comments-svc/Dockerfile" />
         <option value="$PROJECT_DIR$/comments-svc/Makefile" />
         <option value="$PROJECT_DIR$/video-hosting-svc/service.go" />
-        <option value="$PROJECT_DIR$/video-hosting-svc/repository.go" />
         <option value="$PROJECT_DIR$/comments-svc/main.go" />
         <option value="$PROJECT_DIR$/videos_schema.sql" />
         <option value="$PROJECT_DIR$/comments-svc/deployments/deployment.tmpl" />
@@ -163,6 +128,12 @@
         <option value="$PROJECT_DIR$/comments-svc/proto/comments.proto" />
         <option value="$PROJECT_DIR$/comments-svc/repository.go" />
         <option value="$PROJECT_DIR$/comments-svc/service.go" />
+        <option value="$PROJECT_DIR$/video-hosting-svc/repository.go" />
+        <option value="$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests-all.yaml" />
+        <option value="$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl" />
+        <option value="$PROJECT_DIR$/video-hosting-svc/bin/run.sh" />
+        <option value="$PROJECT_DIR$/video-hosting-svc/run.sh" />
+        <option value="$PROJECT_DIR$/video-hosting-svc/Dockerfile" />
       </list>
     </option>
   </component>
@@ -188,6 +159,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,6 +183,17 @@
               <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
               <item name="comments-svc" type="462c0819:PsiDirectoryNode" />
               <item name="proto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudflix" type="462c0819:PsiDirectoryNode" />
+              <item name="monitor" type="462c0819:PsiDirectoryNode" />
+              <item name="kubernetes-prometheus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudflix" type="b2602c69:ProjectViewProjectNode" />
@@ -242,7 +225,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,17 +266,16 @@
     <frame x="-5" y="31" width="2570" height="1365" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" order="7" weight="0.32933652" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039065" side_tool="true" weight="0.32933652" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32853717" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960938" weight="0.32933652" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33013588" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.32933652" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33013588" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -304,6 +285,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,20 +310,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trending-svc/proto/trending.pb.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="830">
-          <caret line="177" column="33" lean-forward="true" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trending-svc/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="88" column="77" selection-start-line="88" selection-start-column="77" selection-end-line="88" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trending-svc/proto/trending.micro.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -355,9 +323,6 @@
           <caret line="19" column="81" lean-forward="true" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-hosting-svc/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/trending-svc/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -389,13 +354,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/build.sh">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests-all.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="361" column="15" selection-start-line="361" selection-start-column="8" selection-end-line="361" selection-end-column="15" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests/grafana/import-dashboards/job.yaml">
       <provider selected="true" editor-type-id="text-editor">
@@ -514,16 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
-          <folding>
-            <element signature="e#14#142#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -569,9 +517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#213#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,17 +584,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video-hosting-svc/repository.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="30" column="99" lean-forward="true" selection-start-line="30" selection-start-column="99" selection-end-line="30" selection-end-column="99" />
+        <state relative-caret-position="671">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="e#14#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/monitor/kubernetes-prometheus/manifests-all.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="2502" column="13" selection-start-line="2502" selection-start-column="8" selection-end-line="2502" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments-svc/repository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="105" column="29" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trending-svc/repository.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
+        <state relative-caret-position="449">
           <caret line="60" column="71" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
         </state>
       </provider>
@@ -657,21 +616,42 @@
     <entry file="file://$PROJECT_DIR$/comments-svc/proto/comments.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comments-svc/repository.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="109" column="9" lean-forward="true" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comments-svc/service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="585">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-hosting-svc/bin/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-hosting-svc/deployments/deployment.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-hosting-svc/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-hosting-svc/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
