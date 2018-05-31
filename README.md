@@ -35,7 +35,14 @@ git clone --recurse-submodules -j8 https://github.com/agxp/cloudflix.git
 ```
 6. Install protobuf
 ```sh
-# TODO
+# Get the protocol compiler release
+wget https://github.com/google/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
+# extract to your path (local bin is okay)
+unzip protoc-3.5.1-linux-x86_64.zip -d ~/.local/
+# Get the protobuf Go runtime
+go get -u github.com/golang/protobuf/protoc-gen-go
+# get the protobuf micro runtime
+go get -u github.com/micro/protoc-gen-micro
 ```
 7. Install PostgreSQL (note: on minikube there are bugs so we have to set persistence to false)
 ```sh
