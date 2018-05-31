@@ -84,13 +84,13 @@ kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-adm
 ```
 15. Install Prometheus and Grafana
 ```sh
-kubectl create -f monitor/kubernetes-prometheus/manifests-all.yaml
+kubectl create -f ./monitor/kubernetes-prometheus/manifests-all.yaml
 ```
 - Wait till pods are green (~1 minute), then initialize the dashboards
 - Because of some errors we have to delete and recreate the job 
 ```
 kubectl --namespace monitoring delete job grafana-import-dashboards    
-kubectl apply --filename ./manifests/grafana/import-dashboards/job.yaml
+kubectl apply --filename ./monitor/kubernetes-prometheus/manifests/grafana/import-dashboards/job.yaml
 ```
 - Then wait ~1 minute to initialize
 16. cd into each service folder and run 
