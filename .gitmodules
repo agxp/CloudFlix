@@ -22,9 +22,6 @@
 [submodule "view-count-svc"]
 	path = view-count-svc
 	url = git@github.com:agxp/view-count-svc.git
-[submodule "html-gen-svc"]
-	path = html-gen-svc
-	url = git@github.com:agxp/html-gen-svc.git
 [submodule "video-search-svc"]
 	path = video-search-svc
 	url = git@github.com:agxp/video-search-svc.git
