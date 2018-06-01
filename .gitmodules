@@ -37,3 +37,6 @@
 [submodule "trending-svc"]
 	path = trending-svc
 	url = git@github.com:agxp/trending-svc.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:agxp/frontend.git
