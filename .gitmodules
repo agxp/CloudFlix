@@ -16,9 +16,6 @@
 [submodule "thumb-gen-svc"]
 	path = thumb-gen-svc
 	url = git@github.com:agxp/thumb-gen-svc.git
-[submodule "thumb-fetch-svc"]
-	path = thumb-fetch-svc
-	url = git@github.com:agxp/thumb-fetch-svc.git
 [submodule "view-count-svc"]
 	path = view-count-svc
 	url = git@github.com:agxp/view-count-svc.git
