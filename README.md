@@ -27,6 +27,7 @@ helm install --name minio --set persistence.size=100Gi,accessKey=minio,secretKey
 ```sh
 minikube service minio --url
 ```
+- Then create a bucket named `thumb`, and change the policy to `ReadOnly` (left sidebar)
 5. Clone this repository
 ```sh
 cd $GOPATH/src/github.com # mkdir github.com if needed
