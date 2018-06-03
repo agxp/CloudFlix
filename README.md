@@ -79,11 +79,15 @@ kubectl create -f https://raw.githubusercontent.com/jaegertracing/jaeger-kuberne
 ```sh
 helm install --name redis --set persistence.enabled=false,cluster.slaveCount=2,usePassword=false,metrics.enabled=true stable/redis
 ```
-14. Fix the serviceaccount settings (warning: this is insecure)
+14. Install RabbitMQ
+```sh
+helm install --name rabbit --set rabbitmq.username=admin,rabbitmq.password=password,persistence.enabled=false stable/rabbitmq
+```
+15. Fix the serviceaccount settings (warning: this is insecure)
 ```sh
 kubectl create clusterrolebinding add-on-cluster-admin --clusterrole=cluster-admin --serviceaccount=default:default
 ```
-15. Install Prometheus and Grafana
+16. Install Prometheus and Grafana
 ```sh
 kubectl create -f ./monitor/kubernetes-prometheus/manifests-all.yaml
 ```
@@ -94,7 +98,7 @@ kubectl --namespace monitoring delete job grafana-import-dashboards
 kubectl apply --filename ./monitor/kubernetes-prometheus/manifests/grafana/import-dashboards/job.yaml
 ```
 - Then wait ~1 minute to initialize
-16. cd into each service folder and run 
+17. cd into each service folder and run 
 ```sh
 make build-local && make deploy-local
 ```
