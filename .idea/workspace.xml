@@ -3,21 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/deployments/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/router/deployments/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/router/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl1" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-encoding-svc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/repository.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-encoding-svc/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl1" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-upload-svc/deployments/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc/deployments/deployment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-upload-svc/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-upload-svc/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-upload-svc/repository.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +21,8 @@
       <file leaf-file-name="repository.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video-encoding-svc/repository.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="377">
+              <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
               <folding>
                 <element signature="e#14#275#0" expanded="true" />
               </folding>
@@ -40,56 +30,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="service.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="929">
-              <caret line="142" column="69" selection-start-line="142" selection-start-column="69" selection-end-line="142" selection-end-column="69" />
-              <folding>
-                <element signature="e#14#339#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1109">
-              <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deployment.tmpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="61" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deployment.tmpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="service.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-encoding-svc/service.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding>
-                <element signature="e#14#204#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="764">
+              <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -97,29 +47,17 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-encoding-svc/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-encoding-svc/main.go">
+      <file leaf-file-name="deployment.tmpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1673">
-              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-              <folding>
-                <element signature="e#14#501#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="encode.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video-encoding-svc/proto/encode.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="405">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -157,12 +95,15 @@
       <find>marshal</find>
       <find>finish</find>
       <find>kub</find>
+      <find>app</find>
+      <find>/tmp</find>
     </findStrings>
     <replaceStrings>
       <replace>(*tracer).StartSpan(</replace>
       <replace>opentracing</replace>
       <replace>video-search</replace>
       <replace>context.TODO</replace>
+      <replace>/app</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -217,7 +158,6 @@
         <option value="$PROJECT_DIR$/video-encoding-svc/deployments/service.yaml" />
         <option value="$PROJECT_DIR$/video-encoding-svc/Makefile" />
         <option value="$PROJECT_DIR$/video-encoding-svc/proto/encode.proto" />
-        <option value="$PROJECT_DIR$/video-encoding-svc/Dockerfile" />
         <option value="$PROJECT_DIR$/router/main.go" />
         <option value="$PROJECT_DIR$/video-encoding-svc/service.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" />
@@ -225,6 +165,7 @@
         <option value="$PROJECT_DIR$/video-encoding-svc/main.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/main.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/repository.go" />
+        <option value="$PROJECT_DIR$/video-encoding-svc/Dockerfile" />
         <option value="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl" />
         <option value="$PROJECT_DIR$/video-encoding-svc/repository.go" />
       </list>
@@ -563,9 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#14#281#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/videos_schema.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -678,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-encoding-svc/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/router/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -694,18 +622,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/video-encoding-svc/service.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="255">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
             <element signature="e#14#204#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="61" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -723,43 +644,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1109">
           <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#589#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="142" column="69" selection-start-line="142" selection-start-column="69" selection-end-line="142" selection-end-column="69" />
-          <folding>
-            <element signature="e#14#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="660">
+          <caret line="44" column="61" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-encoding-svc/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1673">
+        <state relative-caret-position="1169">
           <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#501#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-encoding-svc/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/video-encoding-svc/repository.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="377">
+          <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
           <folding>
             <element signature="e#14#275#0" expanded="true" />
           </folding>
