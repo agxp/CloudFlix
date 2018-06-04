@@ -5,7 +5,7 @@ current frontend (in progress):
 
 video view (in progress):
 ![video view](https://lh5.googleusercontent.com/LOjTZ7lQRlinUMJ-UEHdTLW3ZxrkH6dhGUGhKanRt-p1hq8rl_1MEDICHEf1u0KsbLlbCKzgZAfKnVwBU9pJGZAX0OUTnwV-V2mnXPHqhK8f6GsGsSXY39IS47BHpWQPEgPVFj4w=s0)
-initial database design:  
+initial backend design:  
 ![my vision so far](https://lh5.googleusercontent.com/pyLNBtKGMFikOiJm-84kRbuMRrPn3fOLfGBjYwx4_k5TzuRiKy7NBeJaNSz1gXu0JBWhdxrI1mriijemw6Ea_jYAByDUil8g3ljpHhy3dBQ_58T-Ljcjz-OW2feBY6wFc6YatBnl=s0)  
   
 # Running  
