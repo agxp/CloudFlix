@@ -1,6 +1,11 @@
 
 # CloudFlix  
-vision so far:  
+current frontend (in progress):
+![in progress design](https://lh6.googleusercontent.com/NCZ_Xj_BdA04zgOqwZRNDzQwh5-TISCGIzx3agh-RHYa25jf6FgXVEkJLvad49ixjudphAVQjoa7DrOUYzrICWjnqj7KjkJ7z82WMfMUdJFTSvbn0ZcK9CR9IT92Rod-Tn14E6Iw=s0)
+
+video view (in progress):
+![video view](https://lh5.googleusercontent.com/LOjTZ7lQRlinUMJ-UEHdTLW3ZxrkH6dhGUGhKanRt-p1hq8rl_1MEDICHEf1u0KsbLlbCKzgZAfKnVwBU9pJGZAX0OUTnwV-V2mnXPHqhK8f6GsGsSXY39IS47BHpWQPEgPVFj4w=s0)
+initial database design:  
 ![my vision so far](https://lh5.googleusercontent.com/pyLNBtKGMFikOiJm-84kRbuMRrPn3fOLfGBjYwx4_k5TzuRiKy7NBeJaNSz1gXu0JBWhdxrI1mriijemw6Ea_jYAByDUil8g3ljpHhy3dBQ_58T-Ljcjz-OW2feBY6wFc6YatBnl=s0)  
   
 # Running  

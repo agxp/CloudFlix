@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4de8c3f7-b56a-4a82-a4ed-98fca110254d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl1" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-encoding-svc/repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/video-encoding-svc/repository.go" afterDir="false" />
     </list>
@@ -18,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="repository.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="repository.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-encoding-svc/repository.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#14#275#0" expanded="true" />
               </folding>
@@ -47,8 +45,20 @@
       <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video-encoding-svc/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            <state relative-caret-position="60">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="539">
+                <caret line="102" column="58" lean-forward="true" selection-start-line="102" selection-start-column="58" selection-end-line="102" selection-end-column="58" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -112,7 +122,7 @@
   <component name="GOROOT" path="/usr/lib/go-1.10" />
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/video-encoding-svc" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -161,13 +171,13 @@
         <option value="$PROJECT_DIR$/router/main.go" />
         <option value="$PROJECT_DIR$/video-encoding-svc/service.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/deployments/deployment.tmpl" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/video-encoding-svc/main.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/main.go" />
         <option value="$PROJECT_DIR$/video-upload-svc/repository.go" />
-        <option value="$PROJECT_DIR$/video-encoding-svc/Dockerfile" />
         <option value="$PROJECT_DIR$/video-encoding-svc/deployments/deployment.tmpl" />
         <option value="$PROJECT_DIR$/video-encoding-svc/repository.go" />
+        <option value="$PROJECT_DIR$/video-encoding-svc/Dockerfile" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -630,16 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="688">
-            <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-upload-svc/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1109">
@@ -661,9 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/video-upload-svc/repository.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="764">
@@ -671,10 +668,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-encoding-svc/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/video-upload-svc/service.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video-encoding-svc/repository.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#14#275#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,13 +688,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video-encoding-svc/repository.go">
+    <entry file="file://$PROJECT_DIR$/video-encoding-svc/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="316" column="4" selection-start-line="316" selection-start-column="4" selection-end-line="316" selection-end-column="4" />
-          <folding>
-            <element signature="e#14#275#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="539">
+            <caret line="102" column="58" lean-forward="true" selection-start-line="102" selection-start-column="58" selection-end-line="102" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
